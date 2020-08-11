@@ -1,0 +1,20 @@
+{
+  "name": "spotifydata",
+  "version": "1.0.0",
+  "description": "Website to see your spotify history",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.2",
+    "querystring": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "request": "^2.88.2"
+  }
+}
