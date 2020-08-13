@@ -5,10 +5,10 @@ const Tracks = ({ data }) => {
   console.log(data[0].artists);
   return (
     <>
-      <h2 className="text-2xl w-11/12 mx-auto mb-2 font-bold uppercase">
+      <h2 className="text-2xl w-11/12 mx-auto mb-2 font-bold uppercase mt-20">
         Tracks
       </h2>
-      <div className="w-11/12 bg-brown mx-auto p-4 shadow-lg flex justify-between">
+      <div className="w-11/12 bg-brown mx-auto p-4 shadow-lg flex flex-col md:flex-row  justify-between">
         <Box title="Top 5 Tracks">
           {data.slice(0, 5).map((item, index) => (
             <li key={item.index}>
