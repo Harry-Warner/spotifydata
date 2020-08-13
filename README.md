@@ -4,7 +4,7 @@ A webpage to see your spotify history data
 
 ## How?
 
-React, Next.js and TailwindCSS (making use of the API feature instead of express server.js)
+React and Next.js (making use of the API feature instead of express server.js)
 
 ## Why?
 
