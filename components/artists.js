@@ -47,7 +47,7 @@ const Artists = ({ data }) => {
       <h2 className="text-2xl w-11/12 mx-auto mb-2 font-bold uppercase">
         Artists
       </h2>
-      <div className="w-11/12 bg-brown mx-auto p-4 shadow-lg flex flex-col md:flex-row space-y-4 md:space-y-0 items-center justify-between">
+      <div className="w-11/12 bg-brown mx-auto p-4 shadow-lg flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-between">
         <Box title="Top 5 Artists">
           {data.slice(0, 5).map((item, index) => (
             <li key={item.index}>

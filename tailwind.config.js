@@ -5,6 +5,10 @@ module.exports = {
       fontFamily: {
         logo: ["Quicksand", "sans-serif"],
       },
+      minHeight: {
+        "64": "16rem",
+        container: "calc(100vh - 54px)",
+      },
     },
     colors: {
       deepBlue: "#210A72",
